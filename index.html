@@ -135,6 +135,15 @@
     
     
   
+    
+    
+    
+      
+      
+    
+    
+    
+  
 
 
   
@@ -538,6 +547,62 @@
 </header>
       
         <p>A monoalphabetic cipher is more vulnerable than a polyalphabetic cipher. This is because a monoalphabetic cipher uses a fixed substitution for each letter of the plaintext, whereas a polyalphabetic cipher uses multiple substitutions for each letter, making it more difficult for an attacker to decrypt the ciphertext. Additionally, frequency analysis, which is a common method for breaking monoalphabetic ciphers, is less effective against polyalphabetic ciphers.</p>
+
+      
+      
+
+
+  
+
+  
+
+
+
+
+
+    </article>
+    
+      <div class="Divider"></div>
+    
+  
+    <article>
+      <header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/questions/explain-the-process-of-compiling-and-executing-dot-net-application/" rel="bookmark">Explain the Process of Compiling and Executing Dot Net Application</a>
+  </h2>
+  
+    <time datetime="2020-04-09T16:19:58&#43;05:45">9 April, 2020</time>
+  
+</header>
+      
+        <p>Compiling and executing a .NET application involves several steps.The process is explained below:</p>
+<ol>
+<li>
+<p>Writing the code: You start by writing the source code for your .NET application using a programming language supported by .NET, such as C# or Visual Basic.NET. You use a text editor or an integrated development environment (IDE) like Visual Studio to write the code.</p>
+</li>
+<li>
+<p>Creating the project: In .NET, applications are organized into projects. A project contains all the necessary files and references for building and running the application. You typically create a new project using an IDE or a command-line tool like the .NET CLI (Command-Line Interface).</p>
+</li>
+<li>
+<p>Compiling the code: Once you have the project set up, you compile the source code into an executable format. The compilation process involves translating the high-level code you wrote into a lower-level language called Intermediate Language (IL) or Common Intermediate Language (CIL). The compilation also includes resolving references to other libraries or dependencies used in your application.</p>
+</li>
+<li>
+<p>Generating the assembly: The compiled IL code is stored in a file called an assembly. An assembly is a self-contained unit that contains the compiled code, metadata, and other resources required for execution. The assembly file usually has the extension &ldquo;.dll&rdquo; or &ldquo;.exe&rdquo;.</p>
+</li>
+<li>
+<p>Running the application: To execute the .NET application, you use the runtime environment called the Common Language Runtime (CLR). The CLR provides various services, including memory management, security, and exception handling. When you run the application, the CLR loads the assembly into memory and executes the IL code within it.</p>
+</li>
+<li>
+<p>Just-in-Time (JIT) compilation: The IL code is not directly executed by the processor. Instead, the CLR uses a Just-in-Time (JIT) compiler to convert the IL code into machine code that can be executed by the processor. The JIT compilation occurs dynamically during runtime, optimizing the code based on the current system architecture and executing it efficiently.</p>
+</li>
+<li>
+<p>Handling dependencies: If your application depends on external libraries or frameworks, the CLR automatically resolves and loads those dependencies at runtime. This process is known as assembly binding, where the CLR locates and loads the required assemblies.</p>
+</li>
+<li>
+<p>Application execution: Once the JIT compilation is complete and all dependencies are resolved, the CLR starts executing the application from the entry point defined in your code (e.g., the <code>Main</code> method in C#). The application runs within the CLR&rsquo;s managed execution environment, which provides various services and features, such as garbage collection and type safety.</p>
+</li>
+</ol>
+<p>Using the above steps we can compile and execute .NET application</p>
 
       
       

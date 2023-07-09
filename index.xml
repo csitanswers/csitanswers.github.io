@@ -208,5 +208,40 @@
       <description>&lt;p&gt;A monoalphabetic cipher is more vulnerable than a polyalphabetic cipher. This is because a monoalphabetic cipher uses a fixed substitution for each letter of the plaintext, whereas a polyalphabetic cipher uses multiple substitutions for each letter, making it more difficult for an attacker to decrypt the ciphertext. Additionally, frequency analysis, which is a common method for breaking monoalphabetic ciphers, is less effective against polyalphabetic ciphers.&lt;/p&gt;
 </description>
     </item>
+    <item>
+      <title>Explain the Process of Compiling and Executing Dot Net Application</title>
+      <link>http://example.org/questions/explain-the-process-of-compiling-and-executing-dot-net-application/</link>
+      <pubDate>Thu, 09 Apr 2020 16:19:58 +0545</pubDate>
+      <guid>http://example.org/questions/explain-the-process-of-compiling-and-executing-dot-net-application/</guid>
+      <description>&lt;p&gt;Compiling and executing a .NET application involves several steps.The process is explained below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Writing the code: You start by writing the source code for your .NET application using a programming language supported by .NET, such as C# or Visual Basic.NET. You use a text editor or an integrated development environment (IDE) like Visual Studio to write the code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Creating the project: In .NET, applications are organized into projects. A project contains all the necessary files and references for building and running the application. You typically create a new project using an IDE or a command-line tool like the .NET CLI (Command-Line Interface).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compiling the code: Once you have the project set up, you compile the source code into an executable format. The compilation process involves translating the high-level code you wrote into a lower-level language called Intermediate Language (IL) or Common Intermediate Language (CIL). The compilation also includes resolving references to other libraries or dependencies used in your application.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generating the assembly: The compiled IL code is stored in a file called an assembly. An assembly is a self-contained unit that contains the compiled code, metadata, and other resources required for execution. The assembly file usually has the extension &amp;ldquo;.dll&amp;rdquo; or &amp;ldquo;.exe&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Running the application: To execute the .NET application, you use the runtime environment called the Common Language Runtime (CLR). The CLR provides various services, including memory management, security, and exception handling. When you run the application, the CLR loads the assembly into memory and executes the IL code within it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Just-in-Time (JIT) compilation: The IL code is not directly executed by the processor. Instead, the CLR uses a Just-in-Time (JIT) compiler to convert the IL code into machine code that can be executed by the processor. The JIT compilation occurs dynamically during runtime, optimizing the code based on the current system architecture and executing it efficiently.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Handling dependencies: If your application depends on external libraries or frameworks, the CLR automatically resolves and loads those dependencies at runtime. This process is known as assembly binding, where the CLR locates and loads the required assemblies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Application execution: Once the JIT compilation is complete and all dependencies are resolved, the CLR starts executing the application from the entry point defined in your code (e.g., the &lt;code&gt;Main&lt;/code&gt; method in C#). The application runs within the CLR&amp;rsquo;s managed execution environment, which provides various services and features, such as garbage collection and type safety.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Using the above steps we can compile and execute .NET application&lt;/p&gt;
+</description>
+    </item>
   </channel>
 </rss>
